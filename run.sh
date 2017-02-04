@@ -35,6 +35,9 @@ echo 'Installing AWS CLI...'
 sudo ./awscli-bundle/install -i /usr/local/aws -b /usr/local/bin/aws
 rm -rf awscli-bundle*
 
+echo 'Installing ntpdate...'
+sudo apt-get install ntpdate -y
+
 echo 'Synchronizing System Time...'
 sudo ntpdate ntp.ubuntu.com
 
