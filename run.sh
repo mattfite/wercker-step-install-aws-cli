@@ -24,6 +24,9 @@ sudo apt-get install unzip -y
 echo 'Installing libpython-dev...'
 sudo apt-get install libpython-dev -y
 
+echo 'Installing wget...'
+sudo apt-get install wget -y
+
 echo 'Grabbing AWS CLI...'
 wget https://s3.amazonaws.com/aws-cli/awscli-bundle.zip
 unzip awscli-bundle.zip
